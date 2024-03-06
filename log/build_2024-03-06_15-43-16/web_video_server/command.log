@@ -1,0 +1,4 @@
+Invoking command in '/home/sreeja/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/web_video_server -- -j4 -l4
+Invoked command in '/home/sreeja/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/web_video_server -- -j4 -l4
+Invoking command in '/home/sreeja/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/web_video_server
+Invoked command in '/home/sreeja/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/web_video_server
