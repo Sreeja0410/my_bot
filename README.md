@@ -17,7 +17,7 @@ The stick also features facial recognition and object detection capabilities, en
 - Facial recognition and object detection for environmental awareness
 - Voice assistance and AI integrations for voice-activated features
 - Lightweight and portable design for ease of use
-- 
+  
 # Challenges
 The development of the Smart Blind Assistance Stick presented several challenges, including:
 
