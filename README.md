@@ -1,13 +1,12 @@
-# my_bot
-# Smart Blind Assistance Stick
+# Smart Assistance Stick
 # Introduction
-The Smart Blind Assistance Stick is a technologically advanced solution designed to enhance the independence and autonomy of visually impaired individuals. Traditional aids like white canes have limitations in providing comprehensive real-time navigation information and obstacle detection. This project aims to address these limitations by incorporating cutting-edge technologies and intelligent systems into a portable and user-friendly stick.
+The Smart Assistance Stick is a technologically advanced solution designed to enhance the independence and autonomy of visually impaired individuals. Traditional aids like white canes have limitations in providing comprehensive real-time navigation information and obstacle detection. This project aims to address these limitations by incorporating cutting-edge technologies and intelligent systems into a portable and user-friendly stick.
 
 # Limitations of Existing Solutions
 Existing solutions, such as white canes, rely on physical contact and lack real-time navigation information. Additionally, visually impaired individuals often depend on human assistance, which may not be readily available at all times. These limitations hinder the independence and confidence of individuals with visual impairments.
 
 # Project Overview
-The Smart Blind Assistance Stick utilizes a combination of technologies to provide real-time navigation and environmental awareness for visually impaired individuals. At the core of the project is the Robot Operating System (ROS), which coordinates the various components and functionalities of the stick. The stick incorporates lidar technology for mapping the environment and detecting obstacles, facilitated by the SLAM Toolbox and Nav2bringup packages. Simulations are performed in Gazebo to optimize the system's performance under real-world conditions.
+The Smart Assistance Stick utilizes a combination of technologies to provide real-time navigation and environmental awareness for visually impaired individuals. At the core of the project is the Robot Operating System (ROS), which coordinates the various components and functionalities of the stick. The stick incorporates lidar technology for mapping the environment and detecting obstacles, facilitated by the SLAM Toolbox and Nav2bringup packages. Simulations are performed in Gazebo to optimize the system's performance under real-world conditions.
 
 The stick also features facial recognition and object detection capabilities, ensuring users are aware of their social environment. Voice detection and AI integrations enable voice-activated features, such as requesting directions or recognizing familiar individuals nearby. The stick is powered by a Raspberry Pi running Ubuntu, providing real-time processing and control while maintaining portability.
 
@@ -31,7 +30,7 @@ The development of the Smart Blind Assistance Stick presented several challenges
 - These challenges were overcome through perseverance, dedication, and a commitment to creating a transformative device.
 
 # Usage
-The Smart Blind Assistance Stick is designed to provide intuitive and user-friendly navigation for visually impaired individuals. Here's how to use it:
+The Smart Assistance Stick is designed to provide intuitive and user-friendly navigation for visually impaired individuals. Here's how to use it:
 
 1) Hold the stick firmly in your hand, ensuring a comfortable grip.
 
@@ -47,4 +46,4 @@ The Smart Blind Assistance Stick is designed to provide intuitive and user-frien
 
 7) To deactivate voice assistance, simply say a command like "Deactivate Voice Assistance" or "Stop Listening."
 
-The Smart Blind Assistance Stick empowers users to navigate their surroundings independently and confidently. With its voice assistance, obstacle detection, and object recognition capabilities, it provides a comprehensive and safe navigation experience for visually impaired individuals.
+The Smart Assistance Stick empowers users to navigate their surroundings independently and confidently. With its voice assistance, obstacle detection, and object recognition capabilities, it provides a comprehensive and safe navigation experience for visually impaired individuals.
