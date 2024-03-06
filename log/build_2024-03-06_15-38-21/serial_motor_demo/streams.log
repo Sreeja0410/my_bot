@@ -1,0 +1,26 @@
+[2.660s] Invoking command in '/home/sreeja/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sreeja/dev_ws/build/serial_motor_demo/prefix_override:/home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sreeja/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[3.222s] running develop
+[3.526s] running egg_info
+[3.527s] creating serial_motor_demo.egg-info
+[3.528s] writing serial_motor_demo.egg-info/PKG-INFO
+[3.530s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[3.531s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[3.532s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[3.534s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[3.541s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[3.609s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[3.610s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[3.649s] running build_ext
+[3.651s] Creating /home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/site.py
+[3.652s] Creating /home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[3.654s] Installing driver script to /home/sreeja/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[3.654s] Installing gui script to /home/sreeja/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[3.655s] 
+[3.655s] Installed /home/sreeja/dev_ws/build/serial_motor_demo
+[3.656s] running install_data
+[3.656s] creating /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index
+[3.657s] creating /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[3.657s] creating /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[3.657s] copying resource/serial_motor_demo -> /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[3.658s] copying package.xml -> /home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[3.713s] Invoked command in '/home/sreeja/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sreeja/dev_ws/build/serial_motor_demo/prefix_override:/home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sreeja/dev_ws/build/serial_motor_demo/build --no-deps install_data

@@ -1,0 +1,79 @@
+[0.263s] Invoking command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sreeja/dev_ws/build/gazebo_ros2_control_demos -- -j4 -l4
+[0.288s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.308s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.463s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.470s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.492s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.976s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.011s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.147s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.184s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.184s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.252s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.253s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.253s] -- Configured cppcheck include dirs: 
+[1.254s] -- Configured cppcheck exclude dirs and/or files: 
+[1.254s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.255s] -- Configured cpplint exclude dirs and/or files: 
+[1.255s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.255s] -- Added test 'lint_cmake' to check CMake code style
+[1.256s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.256s] -- Added test 'uncrustify' to check C / C++ code style
+[1.257s] -- Configured uncrustify additional arguments: 
+[1.258s] -- Added test 'xmllint' to check XML markup files
+[1.259s] -- Configuring done
+[1.282s] -- Generating done
+[1.282s] -- Build files have been written to: /home/sreeja/dev_ws/build/gazebo_ros2_control_demos
+[1.330s] [ 10%] [32m[1mLinking CXX executable example_effort[0m
+[1.332s] [ 20%] [32m[1mLinking CXX executable example_position[0m
+[1.340s] [ 30%] [32m[1mLinking CXX executable example_gripper[0m
+[1.551s] [ 40%] Built target example_gripper
+[1.584s] [ 50%] [32m[1mLinking CXX executable example_velocity[0m
+[1.608s] [ 60%] Built target example_position
+[1.617s] [ 70%] Built target example_effort
+[1.646s] [ 80%] [32m[1mLinking CXX executable example_diff_drive[0m
+[1.768s] [ 90%] Built target example_velocity
+[1.831s] [100%] Built target example_diff_drive
+[1.845s] Invoked command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sreeja/dev_ws/build/gazebo_ros2_control_demos -- -j4 -l4
+[1.880s] Invoking command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sreeja/dev_ws/build/gazebo_ros2_control_demos
+[1.888s] -- Install configuration: ""
+[1.888s] -- Execute custom install script
+[1.889s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[1.898s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[1.906s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[1.916s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[1.926s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[1.936s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml
+[1.947s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml
+[1.956s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[1.965s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[1.975s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[1.983s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[1.992s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[2.002s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[2.011s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[2.020s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[2.031s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[2.040s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[2.049s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[2.059s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[2.068s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[2.077s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[2.087s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[2.097s] -- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[2.097s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[2.107s] -- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[2.108s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[2.118s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[2.127s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[2.137s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[2.150s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[2.159s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[2.168s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[2.177s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[2.185s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[2.196s] -- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[2.206s] Invoked command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sreeja/dev_ws/build/gazebo_ros2_control_demos

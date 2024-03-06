@@ -1,0 +1,75 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sreeja/dev_ws/build/gazebo_ros2_control_demos
+[ 10%] [32m[1mLinking CXX executable example_effort[0m
+[ 20%] [32m[1mLinking CXX executable example_position[0m
+[ 30%] [32m[1mLinking CXX executable example_gripper[0m
+[ 40%] Built target example_gripper
+[ 50%] [32m[1mLinking CXX executable example_velocity[0m
+[ 60%] Built target example_position
+[ 70%] Built target example_effort
+[ 80%] [32m[1mLinking CXX executable example_diff_drive[0m
+[ 90%] Built target example_velocity
+[100%] Built target example_diff_drive
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml

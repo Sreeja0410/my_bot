@@ -1,0 +1,1061 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000258] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000279] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.000301] (web_video_server) JobQueued: {'identifier': 'web_video_server', 'dependencies': OrderedDict()}
+[0.000320] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/home/sreeja/dev_ws/install/gazebo_ros2_control')])}
+[0.000344] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/sreeja/dev_ws/install/serial_motor_demo_msgs')])}
+[0.000993] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.101548] (-) TimerEvent: {}
+[0.206395] (-) TimerEvent: {}
+[0.251820] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.306640] (-) TimerEvent: {}
+[0.407289] (-) TimerEvent: {}
+[0.489850] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.509504] (-) TimerEvent: {}
+[0.612918] (-) TimerEvent: {}
+[0.715851] (-) TimerEvent: {}
+[0.725285] (web_video_server) JobStarted: {'identifier': 'web_video_server'}
+[0.817121] (-) TimerEvent: {}
+[0.921670] (-) TimerEvent: {}
+[0.959932] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.961431] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[0.961480] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sreeja/dev_ws/build/gazebo_ros2_control', '--', '-j4', '-l4'], 'cwd': '/home/sreeja/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.966572] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.966815] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sreeja/dev_ws/install/serial_motor_demo_msgs'], 'cwd': '/home/sreeja/dev_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.970875] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.971614] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.973488] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sreeja/dev_ws/build/my_bot', '--', '-j4', '-l4'], 'cwd': '/home/sreeja/dev_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.986552] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'cmake'}
+[0.986619] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'build'}
+[0.986666] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sreeja/dev_ws/build/web_video_server', '--', '-j4', '-l4'], 'cwd': '/home/sreeja/dev_ws/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.008946] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.012375] (my_bot) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.021918] (-) TimerEvent: {}
+[1.027913] (web_video_server) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.034611] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.035044] (my_bot) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.061730] (web_video_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.122080] (-) TimerEvent: {}
+[1.160038] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.195099] (gazebo_ros2_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.218761] (my_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.222464] (-) TimerEvent: {}
+[1.229240] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[1.229577] (my_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.231487] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)\n'}
+[1.242052] (web_video_server) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.255939] (web_video_server) StdoutLine: {'line': b'-- Found async_web_server_cpp: 2.0.0 (/opt/ros/foxy/share/async_web_server_cpp/cmake)\n'}
+[1.277007] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: filesystem regex thread \n'}
+[1.283006] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.284050] (web_video_server) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.289175] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.313528] (my_bot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.320970] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.322638] (-) TimerEvent: {}
+[1.325827] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.328086] (my_bot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.328467] (web_video_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.329393] (my_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.330641] (my_bot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.337933] (my_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.338104] (my_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.340373] (my_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.341311] (my_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/sreeja/dev_ws/build/my_bot\n'}
+[1.342559] (web_video_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.368514] (my_bot) CommandEnded: {'returncode': 0}
+[1.390617] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[1.406292] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sreeja/dev_ws/build/my_bot'], 'cwd': '/home/sreeja/dev_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/my_bot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.416781] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.418804] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.422836] (-) TimerEvent: {}
+[1.427177] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.427907] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.428743] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz\n'}
+[1.431419] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.437457] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[1.446363] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[1.455381] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[1.471873] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[1.478004] (web_video_server) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.480861] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/main.rviz\n'}
+[1.489715] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/map.rviz\n'}
+[1.499019] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.505891] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[1.508681] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.509311] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.511763] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.522644] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/my_controllers.yaml\n'}
+[1.523032] (-) TimerEvent: {}
+[1.531278] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[1.539534] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[1.552120] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[1.561789] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/camera.xacro\n'}
+[1.571945] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[1.580909] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro\n'}
+[1.589619] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro\n'}
+[1.598345] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[1.606257] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.607536] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.620382] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro\n'}
+[1.624038] (-) TimerEvent: {}
+[1.628674] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro\n'}
+[1.637452] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/__pycache__/finial.launch.cpython-38.pyc\n'}
+[1.648901] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/__pycache__/launch_sim.launch.cpython-38.pyc\n'}
+[1.658513] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/bathroom.launch.py\n'}
+[1.666137] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/bedroom.launch.py\n'}
+[1.668597] (web_video_server) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.674609] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/camera.launch.py\n'}
+[1.682837] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/hall.launch.py\n'}
+[1.690950] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[1.700171] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/kitchen.launch.py\n'}
+[1.708365] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py\n'}
+[1.716669] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[1.717786] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.724267] (-) TimerEvent: {}
+[1.728716] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.729104] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.731214] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.734940] (web_video_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.737412] (web_video_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.743427] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/localization_launch.py\n'}
+[1.751823] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[1.760966] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.761221] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.764124] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[1.774123] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py\n'}
+[1.785424] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[1.793986] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/test.launch.py\n'}
+[1.802225] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[1.810614] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/worlds/home.world\n'}
+[1.818773] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/worlds/house.world\n'}
+[1.825191] (-) TimerEvent: {}
+[1.826984] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[1.835716] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[1.849744] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[1.850134] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[1.861003] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[1.861391] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[1.869910] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[1.879139] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[1.890018] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[1.898612] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[1.907671] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[1.915377] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.925824] (-) TimerEvent: {}
+[1.930210] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[1.939651] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.941876] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.943074] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.945056] (web_video_server) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread \n'}
+[1.950457] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[1.965198] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[1.974299] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[1.987040] (my_bot) CommandEnded: {'returncode': 0}
+[2.016097] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.019301] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.025432] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.026311] (-) TimerEvent: {}
+[2.076364] (web_video_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.120847] (web_video_server) StdoutLine: {'line': b'-- Generating done\n'}
+[2.121000] (web_video_server) StdoutLine: {'line': b'-- Build files have been written to: /home/sreeja/dev_ws/build/web_video_server\n'}
+[2.127727] (-) TimerEvent: {}
+[2.141581] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.176394] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.193621] (web_video_server) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o\x1b[0m\n'}
+[2.206304] (web_video_server) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o\x1b[0m\n'}
+[2.207933] (web_video_server) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o\x1b[0m\n'}
+[2.228094] (-) TimerEvent: {}
+[2.244623] (web_video_server) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o\x1b[0m\n'}
+[2.265393] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.290776] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)\n'}
+[2.320139] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.328268] (-) TimerEvent: {}
+[2.396258] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.429258] (-) TimerEvent: {}
+[2.443177] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.446955] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.459410] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.461792] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.465315] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.473184] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.474817] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.483458] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.487102] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.487186] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.487298] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.487369] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.487426] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.487479] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.487530] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.487582] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.487634] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.487737] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.487794] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.530687] (-) TimerEvent: {}
+[2.613946] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.615425] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.615554] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.630913] (-) TimerEvent: {}
+[2.643059] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.655985] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.658918] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.689428] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.689684] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.706342] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.731768] (-) TimerEvent: {}
+[2.735485] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.735628] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.754905] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[2.761985] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.762222] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.762294] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.762353] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.763655] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.779339] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.820362] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.820754] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.833995] (-) TimerEvent: {}
+[2.838490] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.841850] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.862440] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.863398] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.863821] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.864371] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.864466] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.884147] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.884961] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[2.885424] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.885694] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.893929] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[2.895243] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.907759] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.909061] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.909764] (serial_motor_demo_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.928737] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.934343] (-) TimerEvent: {}
+[2.981583] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.999647] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.001876] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sreeja/dev_ws/build/serial_motor_demo_msgs\n'}
+[3.022723] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[3.023092] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[3.025174] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sreeja/dev_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/sreeja/dev_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.034794] (-) TimerEvent: {}
+[3.037059] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.131674] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__cpp\x1b[0m\n'}
+[3.134910] (-) TimerEvent: {}
+[3.145942] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.187524] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.246722] (-) TimerEvent: {}
+[3.282235] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.347033] (-) TimerEvent: {}
+[3.357714] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.447712] (-) TimerEvent: {}
+[3.500829] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.501739] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.506871] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.509659] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.11\n'}
+[3.511675] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[3.525140] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[3.525690] (gazebo_ros2_control) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[3.547984] (-) TimerEvent: {}
+[3.649027] (-) TimerEvent: {}
+[3.750714] (-) TimerEvent: {}
+[3.852703] (-) TimerEvent: {}
+[3.953445] (-) TimerEvent: {}
+[3.961109] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[3.962028] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.053599] (-) TimerEvent: {}
+[4.078689] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.080374] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.082662] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[4.082912] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.083888] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.084079] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.086803] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.089167] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.091541] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.094785] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.104537] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.108635] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  4%] Built target serial_motor_demo_msgs__cpp\n'}
+[4.120131] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.141391] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_generator_c\x1b[0m\n'}
+[4.153769] (-) TimerEvent: {}
+[4.171116] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.175719] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.203507] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_command__functions.c.o\x1b[0m\n'}
+[4.253867] (-) TimerEvent: {}
+[4.285955] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[4.300473] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /home/sreeja/dev_ws/build/gazebo_ros2_control\n'}
+[4.353974] (-) TimerEvent: {}
+[4.354186] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_hardware_plugins\x1b[0m\n'}
+[4.368424] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/motor_vels__functions.c.o\x1b[0m\n'}
+[4.386180] (gazebo_ros2_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gazebo_ros2_control\x1b[0m\n'}
+[4.455383] (-) TimerEvent: {}
+[4.553699] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_generator_c.dir/rosidl_generator_c/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.c.o\x1b[0m\n'}
+[4.557209] (-) TimerEvent: {}
+[4.658227] (-) TimerEvent: {}
+[4.696656] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[4.722559] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.746257] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.758717] (-) TimerEvent: {}
+[4.802728] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[4.866387] (-) TimerEvent: {}
+[4.880487] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[4.886442] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 21%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[4.954612] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[4.967447] (-) TimerEvent: {}
+[5.070302] (-) TimerEvent: {}
+[5.170602] (-) TimerEvent: {}
+[5.271431] (-) TimerEvent: {}
+[5.372034] (-) TimerEvent: {}
+[5.472451] (-) TimerEvent: {}
+[5.548928] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.572599] (-) TimerEvent: {}
+[5.575117] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.675600] (-) TimerEvent: {}
+[5.689034] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.690238] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o\x1b[0m\n'}
+[5.777702] (-) TimerEvent: {}
+[5.879813] (-) TimerEvent: {}
+[5.954041] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[5.983870] (-) TimerEvent: {}
+[6.057166] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[6.084217] (-) TimerEvent: {}
+[6.184873] (-) TimerEvent: {}
+[6.287001] (-) TimerEvent: {}
+[6.387390] (-) TimerEvent: {}
+[6.464307] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[6.490135] (-) TimerEvent: {}
+[6.593413] (-) TimerEvent: {}
+[6.695216] (-) TimerEvent: {}
+[6.763768] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[6.773531] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.806742] (-) TimerEvent: {}
+[6.913074] (-) TimerEvent: {}
+[6.942590] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 38%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[7.006091] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.013649] (-) TimerEvent: {}
+[7.114028] (-) TimerEvent: {}
+[7.172385] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.179441] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.217392] (-) TimerEvent: {}
+[7.318099] (-) TimerEvent: {}
+[7.411804] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.418386] (-) TimerEvent: {}
+[7.483483] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/serial_motor_demo_msgs/msg/detail/dds_fastrtps/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[7.520260] (-) TimerEvent: {}
+[7.622481] (-) TimerEvent: {}
+[7.723416] (-) TimerEvent: {}
+[7.824348] (-) TimerEvent: {}
+[7.853458] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.924913] (-) TimerEvent: {}
+[7.951303] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support.c.o\x1b[0m\n'}
+[8.023153] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[8.027341] (-) TimerEvent: {}
+[8.100225] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_command__type_support.cpp.o\x1b[0m\n'}
+[8.128802] (-) TimerEvent: {}
+[8.145132] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.c.o\x1b[0m\n'}
+[8.204914] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/motor_vels__type_support.cpp.o\x1b[0m\n'}
+[8.214807] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/serial_motor_demo_msgs/msg/encoder_vals__type_support.cpp.o\x1b[0m\n'}
+[8.228939] (-) TimerEvent: {}
+[8.324250] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.c.o\x1b[0m\n'}
+[8.334105] (-) TimerEvent: {}
+[8.434449] (-) TimerEvent: {}
+[8.434835] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.436820] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.536126] (-) TimerEvent: {}
+[8.597036] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[8.598443] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 63%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[8.638212] (-) TimerEvent: {}
+[8.740075] (-) TimerEvent: {}
+[8.765206] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.842397] (-) TimerEvent: {}
+[8.947647] (-) TimerEvent: {}
+[9.001749] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.049316] (-) TimerEvent: {}
+[9.060685] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.149463] (-) TimerEvent: {}
+[9.251141] (-) TimerEvent: {}
+[9.355626] (-) TimerEvent: {}
+[9.456158] (-) TimerEvent: {}
+[9.558218] (-) TimerEvent: {}
+[9.659325] (-) TimerEvent: {}
+[9.736500] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[9.760125] (-) TimerEvent: {}
+[9.814160] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_command__type_support_c.cpp.o\x1b[0m\n'}
+[9.833914] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/motor_vels__type_support_c.cpp.o\x1b[0m\n'}
+[9.860191] (-) TimerEvent: {}
+[9.886758] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support_c.cpp.o\x1b[0m\n'}
+[9.962373] (-) TimerEvent: {}
+[10.063764] (-) TimerEvent: {}
+[10.167324] (-) TimerEvent: {}
+[10.269753] (-) TimerEvent: {}
+[10.380679] (-) TimerEvent: {}
+[10.483221] (-) TimerEvent: {}
+[10.586574] (-) TimerEvent: {}
+[10.686998] (-) TimerEvent: {}
+[10.788415] (-) TimerEvent: {}
+[10.888868] (-) TimerEvent: {}
+[10.989286] (-) TimerEvent: {}
+[11.030816] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.090848] (-) TimerEvent: {}
+[11.200866] (-) TimerEvent: {}
+[11.302175] (-) TimerEvent: {}
+[11.311487] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.367686] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs\x1b[0m\n'}
+[11.404475] (-) TimerEvent: {}
+[11.439759] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[11.499740] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__py\x1b[0m\n'}
+[11.513794] (-) TimerEvent: {}
+[11.553316] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.613966] (-) TimerEvent: {}
+[11.714506] (-) TimerEvent: {}
+[11.827443] (-) TimerEvent: {}
+[11.927928] (-) TimerEvent: {}
+[12.034690] (-) TimerEvent: {}
+[12.137411] (-) TimerEvent: {}
+[12.240557] (-) TimerEvent: {}
+[12.341714] (-) TimerEvent: {}
+[12.443973] (-) TimerEvent: {}
+[12.546618] (-) TimerEvent: {}
+[12.650487] (-) TimerEvent: {}
+[12.751170] (-) TimerEvent: {}
+[12.853338] (-) TimerEvent: {}
+[12.953798] (-) TimerEvent: {}
+[13.001208] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[13.041977] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__python\x1b[0m\n'}
+[13.053998] (-) TimerEvent: {}
+[13.138165] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_command_s.c.o\x1b[0m\n'}
+[13.156453] (-) TimerEvent: {}
+[13.163997] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_motor_vels_s.c.o\x1b[0m\n'}
+[13.188591] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__python.dir/rosidl_generator_py/serial_motor_demo_msgs/msg/_encoder_vals_s.c.o\x1b[0m\n'}
+[13.258607] (-) TimerEvent: {}
+[13.361962] (-) TimerEvent: {}
+[13.462398] (-) TimerEvent: {}
+[13.510984] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__python.so\x1b[0m\n'}
+[13.566782] (-) TimerEvent: {}
+[13.660906] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[13.674840] (-) TimerEvent: {}
+[13.723519] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[13.761182] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[13.776759] (-) TimerEvent: {}
+[13.799903] (serial_motor_demo_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[13.815812] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.855695] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.876905] (-) TimerEvent: {}
+[13.904979] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/serial_motor_demo_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/serial_motor_demo_msgs/_serial_motor_demo_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.979031] (-) TimerEvent: {}
+[14.063290] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.080612] (-) TimerEvent: {}
+[14.107134] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.180930] (-) TimerEvent: {}
+[14.221969] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.277379] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kweb_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.277655] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:65:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint av_lockmgr_register(int (*)(void**, AVLockOp))\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.277769] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.277858] (web_video_server) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.278729] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:11\x1b[m\x1b[K,\n'}
+[14.278905] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.279005] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.279095] (web_video_server) StderrLine: {'line': b' 6163 | int \x1b[01;36m\x1b[Kav_lockmgr_register\x1b[m\x1b[K(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[14.279180] (web_video_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.279263] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:65:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint av_lockmgr_register(int (*)(void**, AVLockOp))\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.279349] (web_video_server) StderrLine: {'line': b'   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.279432] (web_video_server) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.279513] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:11\x1b[m\x1b[K,\n'}
+[14.279604] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.279687] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.279779] (web_video_server) StderrLine: {'line': b' 6163 | int \x1b[01;36m\x1b[Kav_lockmgr_register\x1b[m\x1b[K(int (*cb)(void **mutex, enum AVLockOp op));\n'}
+[14.279863] (web_video_server) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.279944] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:66:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid av_register_all()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.280027] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.280107] (web_video_server) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.283379] (-) TimerEvent: {}
+[14.284549] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[14.284798] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.284918] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.285026] (web_video_server) StderrLine: {'line': b' 2050 | void \x1b[01;36m\x1b[Kav_register_all\x1b[m\x1b[K(void);\n'}
+[14.285143] (web_video_server) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.285251] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:66:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid av_register_all()\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.285360] (web_video_server) StderrLine: {'line': b'   66 |   av_register_all(\x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[14.285464] (web_video_server) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.285569] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[14.285675] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.285782] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.285869] (web_video_server) StderrLine: {'line': b' 2050 | void \x1b[01;36m\x1b[Kav_register_all\x1b[m\x1b[K(void);\n'}
+[14.285969] (web_video_server) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.294302] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.294840] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.294961] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[14.295052] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[14.295137] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[14.295234] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.295318] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.295394] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[14.295475] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[14.295619] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.297157] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.297332] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[14.297448] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[14.297550] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[14.297663] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.297766] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.297862] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[14.297960] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[14.298055] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:160:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KAVStream::codec\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[14.298155] (web_video_server) StderrLine: {'line': b'  160 |   codec_context_ = video_stream_->\x1b[01;35m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[14.298254] (web_video_server) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[14.298356] (web_video_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12\x1b[m\x1b[K,\n'}
+[14.298457] (web_video_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1\x1b[m\x1b[K:\n'}
+[14.298589] (web_video_server) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[14.298695] (web_video_server) StderrLine: {'line': b'  885 |     AVCodecContext *\x1b[01;36m\x1b[Kcodec\x1b[m\x1b[K;\n'}
+[14.298798] (web_video_server) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[14.311531] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[14.367568] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[14.383706] (-) TimerEvent: {}
+[14.410538] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[14.486521] (-) TimerEvent: {}
+[14.589806] (-) TimerEvent: {}
+[14.695165] (-) TimerEvent: {}
+[14.798861] (-) TimerEvent: {}
+[14.899583] (-) TimerEvent: {}
+[15.002453] (-) TimerEvent: {}
+[15.102909] (-) TimerEvent: {}
+[15.205411] (-) TimerEvent: {}
+[15.306359] (-) TimerEvent: {}
+[15.407796] (-) TimerEvent: {}
+[15.411102] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[15.415770] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sreeja/dev_ws/build/serial_motor_demo_msgs'], 'cwd': '/home/sreeja/dev_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/serial_motor_demo_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.468276] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.469271] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.470066] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[15.507942] (-) TimerEvent: {}
+[15.512550] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[15.534258] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[15.577656] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[15.595068] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[15.608272] (-) TimerEvent: {}
+[15.635835] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[15.677393] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[15.708332] (-) TimerEvent: {}
+[15.711881] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[15.734841] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[15.773006] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[15.803152] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[15.809300] (-) TimerEvent: {}
+[15.836167] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[15.861764] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[15.899915] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.909813] (-) TimerEvent: {}
+[15.928340] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[15.964468] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[16.004689] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[16.010044] (-) TimerEvent: {}
+[16.039896] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[16.076432] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[16.110615] (-) TimerEvent: {}
+[16.112004] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.136617] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[16.154689] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.169302] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.181098] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.193567] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.206416] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.211198] (-) TimerEvent: {}
+[16.219891] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[16.245370] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[16.284280] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[16.318404] (-) TimerEvent: {}
+[16.319395] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.347286] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[16.377512] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[16.409794] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[16.424831] (-) TimerEvent: {}
+[16.434736] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[16.467922] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[16.502055] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[16.528515] (-) TimerEvent: {}
+[16.533008] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[16.562915] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[16.587157] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[16.596592] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[16.607019] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[16.614185] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[16.623123] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[16.628857] (-) TimerEvent: {}
+[16.633321] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[16.645054] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[16.658033] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.676793] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.686293] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.698133] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.710262] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[16.719589] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[16.737519] (-) TimerEvent: {}
+[16.752507] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[16.787709] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[16.814360] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[16.835033] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[16.835675] (web_video_server) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o\x1b[0m\n'}
+[16.837797] (-) TimerEvent: {}
+[16.849445] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[16.881910] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.905138] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.934317] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.948269] (-) TimerEvent: {}
+[16.957511] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[16.989655] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[17.021065] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[17.047150] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[17.048426] (-) TimerEvent: {}
+[17.079467] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[17.124602] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[17.148592] (-) TimerEvent: {}
+[17.152195] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[17.193955] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[17.223596] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[17.248837] (-) TimerEvent: {}
+[17.250291] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[17.292830] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[17.323804] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[17.349067] (-) TimerEvent: {}
+[17.355023] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[17.374246] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[17.375041] (web_video_server) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp9_streamer.cpp.o\x1b[0m\n'}
+[17.386035] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[17.414497] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[17.441996] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[17.454749] (-) TimerEvent: {}
+[17.477825] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[17.507993] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[17.538534] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[17.554893] (-) TimerEvent: {}
+[17.575782] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.603606] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[17.632273] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[17.657228] (-) TimerEvent: {}
+[17.658554] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.686577] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[17.724912] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[17.753403] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[17.757467] (-) TimerEvent: {}
+[17.790374] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[17.819839] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[17.822938] (web_video_server) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/multipart_stream.cpp.o\x1b[0m\n'}
+[17.835181] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[17.835346] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so" to ""\n'}
+[17.835413] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[17.835468] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[17.835533] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[17.835588] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so" to ""\n'}
+[17.835641] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[17.835692] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[17.835744] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[17.835796] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[17.860144] (-) TimerEvent: {}
+[17.911277] (serial_motor_demo_msgs) StdoutLine: {'line': b"Compiling '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py'...\n"}
+[17.923831] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[17.924451] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[17.924858] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[17.925299] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[17.925675] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[17.926154] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[17.926636] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[17.927076] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[17.927748] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[17.927925] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[17.928023] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Installing: /home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[17.930484] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[17.960802] (-) TimerEvent: {}
+[18.062778] (-) TimerEvent: {}
+[18.166836] (-) TimerEvent: {}
+[18.271178] (-) TimerEvent: {}
+[18.375063] (-) TimerEvent: {}
+[18.482741] (-) TimerEvent: {}
+[18.585380] (-) TimerEvent: {}
+[18.696074] (-) TimerEvent: {}
+[18.806766] (-) TimerEvent: {}
+[18.931496] (-) TimerEvent: {}
+[19.036505] (-) TimerEvent: {}
+[19.139900] (-) TimerEvent: {}
+[19.240299] (-) TimerEvent: {}
+[19.341949] (-) TimerEvent: {}
+[19.442519] (-) TimerEvent: {}
+[19.543181] (-) TimerEvent: {}
+[19.646689] (-) TimerEvent: {}
+[19.747445] (-) TimerEvent: {}
+[19.848058] (-) TimerEvent: {}
+[19.954590] (-) TimerEvent: {}
+[20.055345] (-) TimerEvent: {}
+[20.156448] (-) TimerEvent: {}
+[20.257508] (-) TimerEvent: {}
+[20.358798] (-) TimerEvent: {}
+[20.455085] (web_video_server) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o\x1b[0m\n'}
+[20.459288] (-) TimerEvent: {}
+[20.564774] (-) TimerEvent: {}
+[20.669002] (-) TimerEvent: {}
+[20.777514] (-) TimerEvent: {}
+[20.885685] (-) TimerEvent: {}
+[20.994342] (-) TimerEvent: {}
+[21.096387] (-) TimerEvent: {}
+[21.202644] (-) TimerEvent: {}
+[21.306923] (-) TimerEvent: {}
+[21.407986] (-) TimerEvent: {}
+[21.509291] (-) TimerEvent: {}
+[21.574853] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[21.575518] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[21.610710] (-) TimerEvent: {}
+[21.718675] (-) TimerEvent: {}
+[21.855790] (-) TimerEvent: {}
+[21.959494] (-) TimerEvent: {}
+[22.060090] (-) TimerEvent: {}
+[22.188251] (-) TimerEvent: {}
+[22.294737] (-) TimerEvent: {}
+[22.414647] (-) TimerEvent: {}
+[22.515734] (-) TimerEvent: {}
+[22.616437] (-) TimerEvent: {}
+[22.725082] (-) TimerEvent: {}
+[22.829013] (-) TimerEvent: {}
+[22.931895] (-) TimerEvent: {}
+[23.045693] (-) TimerEvent: {}
+[23.147228] (-) TimerEvent: {}
+[23.258630] (-) TimerEvent: {}
+[23.359170] (-) TimerEvent: {}
+[23.463529] (-) TimerEvent: {}
+[23.564892] (-) TimerEvent: {}
+[23.666796] (-) TimerEvent: {}
+[23.768801] (-) TimerEvent: {}
+[23.870579] (-) TimerEvent: {}
+[23.973422] (-) TimerEvent: {}
+[24.074087] (-) TimerEvent: {}
+[24.174682] (-) TimerEvent: {}
+[24.233955] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sreeja/dev_ws/build/serial_motor_demo/build', '--no-deps', 'install_data'], 'cwd': '/home/sreeja/dev_ws/build/serial_motor_demo', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'sreeja', 'SSH_AGENT_PID': '1658', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/sreeja', 'OLDPWD': '/home/sreeja', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1435', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'sreeja', 'JOURNAL_STREAM': '8:37931', '_': '/home/sreeja/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sreeja', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712', 'INVOCATION_ID': '9f942aaeb1df45158088a18fa3c3428a', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.126', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/sreeja/dev_ws/install/serial_motor_demo_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sreeja/dev_ws/build/serial_motor_demo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sreeja/dev_ws/build/serial_motor_demo/prefix_override:/home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/sreeja/dev_ws/install/serial_motor_demo_msgs'}, 'shell': False}
+[24.277857] (-) TimerEvent: {}
+[24.327469] (web_video_server) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o\x1b[0m\n'}
+[24.377979] (-) TimerEvent: {}
+[24.478567] (-) TimerEvent: {}
+[24.580264] (-) TimerEvent: {}
+[24.681144] (-) TimerEvent: {}
+[24.788572] (-) TimerEvent: {}
+[24.796521] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[24.890605] (-) TimerEvent: {}
+[24.993105] (-) TimerEvent: {}
+[25.100159] (-) TimerEvent: {}
+[25.100739] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[25.101688] (serial_motor_demo) StdoutLine: {'line': b'creating serial_motor_demo.egg-info\n'}
+[25.103116] (serial_motor_demo) StdoutLine: {'line': b'writing serial_motor_demo.egg-info/PKG-INFO\n'}
+[25.104861] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt\n'}
+[25.106236] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to serial_motor_demo.egg-info/entry_points.txt\n'}
+[25.107509] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to serial_motor_demo.egg-info/requires.txt\n'}
+[25.108713] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to serial_motor_demo.egg-info/top_level.txt\n'}
+[25.116441] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[25.183835] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[25.184951] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[25.214629] (-) TimerEvent: {}
+[25.224645] (serial_motor_demo) StdoutLine: {'line': b'running build_ext\n'}
+[25.225856] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/site.py\n'}
+[25.227904] (serial_motor_demo) StdoutLine: {'line': b'Creating /home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)\n'}
+[25.228987] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/sreeja/dev_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[25.229790] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/sreeja/dev_ws/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[25.230595] (serial_motor_demo) StdoutLine: {'line': b'\n'}
+[25.230914] (serial_motor_demo) StdoutLine: {'line': b'Installed /home/sreeja/dev_ws/build/serial_motor_demo\n'}
+[25.231227] (serial_motor_demo) StdoutLine: {'line': b'running install_data\n'}
+[25.231611] (serial_motor_demo) StdoutLine: {'line': b'creating /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index\n'}
+[25.231939] (serial_motor_demo) StdoutLine: {'line': b'creating /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index/resource_index\n'}
+[25.232196] (serial_motor_demo) StdoutLine: {'line': b'creating /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[25.232642] (serial_motor_demo) StdoutLine: {'line': b'copying resource/serial_motor_demo -> /home/sreeja/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages\n'}
+[25.233144] (serial_motor_demo) StdoutLine: {'line': b'copying package.xml -> /home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo\n'}
+[25.288721] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[25.316732] (-) TimerEvent: {}
+[25.417183] (-) TimerEvent: {}
+[25.522179] (-) TimerEvent: {}
+[25.636546] (-) TimerEvent: {}
+[25.746766] (-) TimerEvent: {}
+[25.847610] (-) TimerEvent: {}
+[25.954714] (-) TimerEvent: {}
+[26.062726] (-) TimerEvent: {}
+[26.166847] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[26.167258] (-) TimerEvent: {}
+[26.267667] (-) TimerEvent: {}
+[26.376229] (-) TimerEvent: {}
+[26.478663] (-) TimerEvent: {}
+[26.580147] (-) TimerEvent: {}
+[26.681123] (-) TimerEvent: {}
+[26.781484] (-) TimerEvent: {}
+[26.881930] (-) TimerEvent: {}
+[26.982303] (-) TimerEvent: {}
+[27.083478] (-) TimerEvent: {}
+[27.184663] (-) TimerEvent: {}
+[27.286097] (-) TimerEvent: {}
+[27.389294] (-) TimerEvent: {}
+[27.492225] (-) TimerEvent: {}
+[27.594003] (-) TimerEvent: {}
+[27.694418] (-) TimerEvent: {}
+[27.802335] (-) TimerEvent: {}
+[27.910663] (-) TimerEvent: {}
+[28.018515] (-) TimerEvent: {}
+[28.125305] (-) TimerEvent: {}
+[28.226046] (-) TimerEvent: {}
+[28.326632] (-) TimerEvent: {}
+[28.427339] (-) TimerEvent: {}
+[28.530493] (-) TimerEvent: {}
+[28.632593] (-) TimerEvent: {}
+[28.733526] (-) TimerEvent: {}
+[28.834127] (-) TimerEvent: {}
+[28.900099] (web_video_server) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o\x1b[0m\n'}
+[28.934274] (-) TimerEvent: {}
+[29.039107] (-) TimerEvent: {}
+[29.146710] (-) TimerEvent: {}
+[29.247240] (-) TimerEvent: {}
+[29.348842] (-) TimerEvent: {}
+[29.452647] (-) TimerEvent: {}
+[29.554606] (-) TimerEvent: {}
+[29.655301] (-) TimerEvent: {}
+[29.758682] (-) TimerEvent: {}
+[29.859224] (-) TimerEvent: {}
+[29.959869] (-) TimerEvent: {}
+[30.060495] (-) TimerEvent: {}
+[30.161136] (-) TimerEvent: {}
+[30.261738] (-) TimerEvent: {}
+[30.362281] (-) TimerEvent: {}
+[30.462929] (-) TimerEvent: {}
+[30.574586] (-) TimerEvent: {}
+[30.676227] (-) TimerEvent: {}
+[30.777179] (-) TimerEvent: {}
+[30.877874] (-) TimerEvent: {}
+[30.978545] (-) TimerEvent: {}
+[31.082548] (-) TimerEvent: {}
+[31.194199] (-) TimerEvent: {}
+[31.295339] (-) TimerEvent: {}
+[31.403182] (-) TimerEvent: {}
+[31.503774] (-) TimerEvent: {}
+[31.608123] (-) TimerEvent: {}
+[31.714673] (-) TimerEvent: {}
+[31.815402] (-) TimerEvent: {}
+[31.916527] (-) TimerEvent: {}
+[32.017578] (-) TimerEvent: {}
+[32.118572] (-) TimerEvent: {}
+[32.227326] (-) TimerEvent: {}
+[32.330251] (-) TimerEvent: {}
+[32.430645] (-) TimerEvent: {}
+[32.518722] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[32.531435] (-) TimerEvent: {}
+[32.572688] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[32.634665] (-) TimerEvent: {}
+[32.738426] (-) TimerEvent: {}
+[32.839335] (-) TimerEvent: {}
+[32.939928] (-) TimerEvent: {}
+[33.040639] (-) TimerEvent: {}
+[33.142108] (-) TimerEvent: {}
+[33.242695] (-) TimerEvent: {}
+[33.343323] (-) TimerEvent: {}
+[33.448240] (-) TimerEvent: {}
+[33.553401] (-) TimerEvent: {}
+[33.658635] (-) TimerEvent: {}
+[33.759243] (-) TimerEvent: {}
+[33.766024] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_hardware_plugins\n'}
+[33.856619] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[33.863744] (-) TimerEvent: {}
+[33.872090] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[33.919951] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[33.922583] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sreeja/dev_ws/build/gazebo_ros2_control'], 'cwd': '/home/sreeja/dev_ws/build/gazebo_ros2_control', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/gazebo_ros2_control'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[33.937046] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.943519] (gazebo_ros2_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.943743] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[33.952517] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[33.964740] (-) TimerEvent: {}
+[33.966523] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[33.967385] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[33.981927] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[33.996234] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[34.007973] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[34.019699] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml\n'}
+[34.028976] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[34.038662] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[34.052531] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[34.053148] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[34.065503] (-) TimerEvent: {}
+[34.065866] (gazebo_ros2_control) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[34.066624] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[34.080021] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[34.094442] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[34.107198] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[34.121206] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[34.135563] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[34.150243] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[34.164652] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[34.165663] (-) TimerEvent: {}
+[34.178718] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.191117] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.208106] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.221316] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[34.233207] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[34.246449] (gazebo_ros2_control) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[34.257543] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[34.266257] (-) TimerEvent: {}
+[34.371242] (-) TimerEvent: {}
+[34.474366] (-) TimerEvent: {}
+[34.579186] (-) TimerEvent: {}
+[34.689617] (-) TimerEvent: {}
+[34.794125] (-) TimerEvent: {}
+[34.900312] (-) TimerEvent: {}
+[35.011268] (-) TimerEvent: {}
+[35.114712] (-) TimerEvent: {}
+[35.163621] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[35.164615] (gazebo_ros2_control_demos) JobStarted: {'identifier': 'gazebo_ros2_control_demos'}
+[35.217769] (-) TimerEvent: {}
+[35.318834] (-) TimerEvent: {}
+[35.419516] (-) TimerEvent: {}
+[35.423368] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'cmake'}
+[35.425989] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'build'}
+[35.426273] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos', '--', '-j4', '-l4'], 'cwd': '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[35.452771] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[35.472539] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[35.520733] (-) TimerEvent: {}
+[35.623474] (-) TimerEvent: {}
+[35.627655] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[35.634711] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[35.652494] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[35.656293] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[35.727573] (-) TimerEvent: {}
+[35.762855] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[35.827958] (-) TimerEvent: {}
+[35.938460] (-) TimerEvent: {}
+[36.038829] (-) TimerEvent: {}
+[36.139343] (-) TimerEvent: {}
+[36.140234] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[36.175076] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[36.176244] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[36.239493] (-) TimerEvent: {}
+[36.311789] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[36.340515] (-) TimerEvent: {}
+[36.347997] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[36.348771] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[36.393632] (web_video_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable web_video_server\x1b[0m\n'}
+[36.416396] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[36.417415] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[36.417824] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[36.418186] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[36.418626] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[36.418990] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[36.419394] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[36.419742] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[36.420103] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[36.420472] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[36.420815] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[36.421917] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[36.423636] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.440691] (-) TimerEvent: {}
+[36.446685] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[36.446856] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /home/sreeja/dev_ws/build/gazebo_ros2_control_demos\n'}
+[36.493838] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[36.495958] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[36.504279] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[36.541089] (-) TimerEvent: {}
+[36.642196] (-) TimerEvent: {}
+[36.715433] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 40%] Built target example_gripper\n'}
+[36.747686] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[36.748511] (-) TimerEvent: {}
+[36.771817] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 60%] Built target example_position\n'}
+[36.780894] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 70%] Built target example_effort\n'}
+[36.809850] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[36.848694] (-) TimerEvent: {}
+[36.932884] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 90%] Built target example_velocity\n'}
+[36.948937] (-) TimerEvent: {}
+[36.995646] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_diff_drive\n'}
+[37.009116] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[37.042143] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'install'}
+[37.044282] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos'], 'cwd': '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy')]), 'shell': False}
+[37.050849] (-) TimerEvent: {}
+[37.051950] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.052749] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.053551] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[37.062273] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[37.070882] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[37.080936] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py\n'}
+[37.091031] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[37.100767] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml\n'}
+[37.111113] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml\n'}
+[37.120449] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml\n'}
+[37.129943] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml\n'}
+[37.139156] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml\n'}
+[37.148021] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[37.153876] (-) TimerEvent: {}
+[37.156864] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[37.166015] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[37.175130] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[37.184788] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[37.195032] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position\n'}
+[37.204148] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity\n'}
+[37.213798] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort\n'}
+[37.223142] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper\n'}
+[37.232425] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive\n'}
+[37.241475] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos\n'}
+[37.251076] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos\n'}
+[37.254086] (-) TimerEvent: {}
+[37.261097] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[37.261784] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[37.271954] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh\n'}
+[37.272607] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv\n'}
+[37.282696] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash\n'}
+[37.291644] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh\n'}
+[37.301818] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh\n'}
+[37.314323] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv\n'}
+[37.323552] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv\n'}
+[37.332410] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos\n'}
+[37.341210] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake\n'}
+[37.349955] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake\n'}
+[37.354791] (-) TimerEvent: {}
+[37.360051] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml\n'}
+[37.370617] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[37.457299] (-) TimerEvent: {}
+[37.557725] (-) TimerEvent: {}
+[37.623967] (web_video_server) StdoutLine: {'line': b'[100%] Built target web_video_server\n'}
+[37.645781] (web_video_server) CommandEnded: {'returncode': 0}
+[37.658269] (-) TimerEvent: {}
+[37.760025] (-) TimerEvent: {}
+[37.861028] (-) TimerEvent: {}
+[37.963065] (-) TimerEvent: {}
+[37.982210] (gazebo_ros2_control_demos) JobEnded: {'identifier': 'gazebo_ros2_control_demos', 'rc': 0}
+[37.985294] (web_video_server) JobProgress: {'identifier': 'web_video_server', 'progress': 'install'}
+[37.985671] (web_video_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sreeja/dev_ws/build/web_video_server'], 'cwd': '/home/sreeja/dev_ws/build/web_video_server', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sreeja'), ('SSH_AGENT_PID', '1658'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sreeja'), ('OLDPWD', '/home/sreeja'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1435'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sreeja'), ('JOURNAL_STREAM', '8:37931'), ('_', '/home/sreeja/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sreeja'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/sreeja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sreeja-VirtualBox:@/tmp/.ICE-unix/1712,unix/sreeja-VirtualBox:/tmp/.ICE-unix/1712'), ('INVOCATION_ID', '9f942aaeb1df45158088a18fa3c3428a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/215b2a46_7a6f_42d0_9dfe_8567c72b3846'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sreeja/dev_ws/build/web_video_server'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[37.993892] (web_video_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.994610] (web_video_server) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.994981] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/lib/web_video_server/web_video_server\n'}
+[38.002892] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server\n'}
+[38.011168] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server\n'}
+[38.019245] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh\n'}
+[38.019416] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv\n'}
+[38.027337] (web_video_server) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/path.sh\n'}
+[38.027557] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/path.dsv\n'}
+[38.035799] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.bash\n'}
+[38.043748] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.sh\n'}
+[38.051944] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.zsh\n'}
+[38.061995] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.dsv\n'}
+[38.068962] (-) TimerEvent: {}
+[38.070012] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.dsv\n'}
+[38.078072] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server\n'}
+[38.088715] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake\n'}
+[38.101662] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake\n'}
+[38.114931] (web_video_server) StdoutLine: {'line': b'-- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.xml\n'}
+[38.123375] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server\n'}
+[38.123547] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/libav_streamer.h\n'}
+[38.123613] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/vp9_streamer.h\n'}
+[38.123770] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/vp8_streamer.h\n'}
+[38.123837] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/jpeg_streamers.h\n'}
+[38.123891] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/web_video_server.h\n'}
+[38.123943] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/image_streamer.h\n'}
+[38.123995] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/png_streamers.h\n'}
+[38.124046] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/h264_streamer.h\n'}
+[38.124098] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/ros_compressed_streamer.h\n'}
+[38.124148] (web_video_server) StdoutLine: {'line': b'-- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/multipart_stream.h\n'}
+[38.125792] (web_video_server) CommandEnded: {'returncode': 0}
+[38.169610] (-) TimerEvent: {}
+[38.275241] (-) TimerEvent: {}
+[38.378879] (-) TimerEvent: {}
+[38.483754] (-) TimerEvent: {}
+[38.587429] (-) TimerEvent: {}
+[38.690967] (-) TimerEvent: {}
+[38.709547] (web_video_server) JobEnded: {'identifier': 'web_video_server', 'rc': 0}
+[38.711942] (-) EventReactorShutdown: {}

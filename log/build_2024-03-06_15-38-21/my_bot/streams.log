@@ -1,0 +1,71 @@
+[0.486s] Invoking command in '/home/sreeja/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/my_bot -- -j4 -l4
+[0.523s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.545s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.729s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.740s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.838s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.840s] -- Added test 'lint_cmake' to check CMake code style
+[0.841s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.848s] -- Added test 'xmllint' to check XML markup files
+[0.848s] -- Configuring done
+[0.851s] -- Generating done
+[0.851s] -- Build files have been written to: /home/sreeja/dev_ws/build/my_bot
+[0.879s] Invoked command in '/home/sreeja/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/my_bot -- -j4 -l4
+[0.917s] Invoking command in '/home/sreeja/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/my_bot
+[0.937s] -- Install configuration: ""
+[0.938s] -- Execute custom install script
+[0.939s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.948s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.957s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/gaz_ros2_ctl_use_sim.yaml
+[0.966s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.982s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml
+[0.991s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/main.rviz
+[1.000s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/map.rviz
+[1.016s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.033s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.042s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[1.050s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+[1.062s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.072s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/camera.xacro
+[1.082s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.091s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.100s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[1.109s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.131s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.139s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.148s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/__pycache__/finial.launch.cpython-38.pyc
+[1.159s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/__pycache__/launch_sim.launch.cpython-38.pyc
+[1.169s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/bathroom.launch.py
+[1.176s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/bedroom.launch.py
+[1.185s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/camera.launch.py
+[1.193s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/hall.launch.py
+[1.201s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/joystick.launch.py
+[1.210s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/kitchen.launch.py
+[1.219s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[1.227s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.254s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/localization_launch.py
+[1.262s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/navigation_launch.py
+[1.274s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/online_async_launch.py
+[1.284s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[1.296s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.304s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/launch/test.launch.py
+[1.312s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.321s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/worlds/home.world
+[1.329s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/worlds/house.world
+[1.337s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.346s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.360s] -- Up-to-date symlink: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.360s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.371s] -- Up-to-date symlink: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.372s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.380s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.389s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[1.400s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[1.409s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[1.418s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/package.dsv
+[1.440s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.461s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.475s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.485s] -- Symlinking: /home/sreeja/dev_ws/install/my_bot/share/my_bot/package.xml
+[1.497s] Invoked command in '/home/sreeja/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/my_bot

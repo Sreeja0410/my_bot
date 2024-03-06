@@ -1,0 +1,119 @@
+[0.264s] Invoking command in '/home/sreeja/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/web_video_server -- -j4 -l4
+[0.303s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.517s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.531s] -- Found async_web_server_cpp: 2.0.0 (/opt/ros/foxy/share/async_web_server_cpp/cmake)
+[0.552s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.71.0") found components: filesystem regex thread 
+[0.559s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.617s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.943s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.010s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.220s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[1.351s] -- Configuring done
+[1.396s] -- Generating done
+[1.396s] -- Build files have been written to: /home/sreeja/dev_ws/build/web_video_server
+[1.468s] [  9%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/web_video_server.cpp.o[0m
+[1.482s] [ 18%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o[0m
+[1.483s] [ 27%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o[0m
+[1.519s] [ 36%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o[0m
+[13.552s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:[m[K In constructor ‘[01m[Kweb_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)[m[K’:
+[13.552s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:65:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint av_lockmgr_register(int (*)(void**, AVLockOp))[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.553s]    65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager[01;35m[K)[m[K;
+[13.553s]       |                                                       [01;35m[K^[m[K
+[13.554s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:11[m[K,
+[13.554s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.554s] [01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.554s]  6163 | int [01;36m[Kav_lockmgr_register[m[K(int (*cb)(void **mutex, enum AVLockOp op));
+[13.554s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.554s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:65:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint av_lockmgr_register(int (*)(void**, AVLockOp))[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.554s]    65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager[01;35m[K)[m[K;
+[13.554s]       |                                                       [01;35m[K^[m[K
+[13.554s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:11[m[K,
+[13.554s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.554s] [01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:6163:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.555s]  6163 | int [01;36m[Kav_lockmgr_register[m[K(int (*cb)(void **mutex, enum AVLockOp op));
+[13.555s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.555s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:66:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_register_all()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.555s]    66 |   av_register_all([01;35m[K)[m[K;
+[13.555s]       |                   [01;35m[K^[m[K
+[13.559s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+[13.560s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.560s] [01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.560s]  2050 | void [01;36m[Kav_register_all[m[K(void);
+[13.560s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[13.560s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:66:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_register_all()[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.560s]    66 |   av_register_all([01;35m[K)[m[K;
+[13.560s]       |                   [01;35m[K^[m[K
+[13.560s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+[13.560s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.561s] [01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:2050:6:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.561s]  2050 | void [01;36m[Kav_register_all[m[K(void);
+[13.561s]       |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[13.569s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:[m[K In member function ‘[01m[Kvirtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)[m[K’:
+[13.570s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.570s]   160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+[13.570s]       |                                   [01;35m[K^~~~~[m[K
+[13.570s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+[13.570s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.570s] [01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.570s]   885 |     AVCodecContext *[01;36m[Kcodec[m[K;
+[13.570s]       |                     [01;36m[K^~~~~[m[K
+[13.572s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.572s]   160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+[13.572s]       |                                   [01;35m[K^~~~~[m[K
+[13.572s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+[13.572s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.573s] [01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.573s]   885 |     AVCodecContext *[01;36m[Kcodec[m[K;
+[13.573s]       |                     [01;36m[K^~~~~[m[K
+[13.573s] [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[13.573s]   160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+[13.573s]       |                                   [01;35m[K^~~~~[m[K
+[13.573s] In file included from [01m[K/home/sreeja/dev_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+[13.573s]                  from [01m[K/home/sreeja/dev_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[13.573s] [01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:885:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[13.573s]   885 |     AVCodecContext *[01;36m[Kcodec[m[K;
+[13.574s]       |                     [01;36m[K^~~~~[m[K
+[16.110s] [ 45%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o[0m
+[16.650s] [ 54%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp9_streamer.cpp.o[0m
+[17.098s] [ 63%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/multipart_stream.cpp.o[0m
+[19.730s] [ 72%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/ros_compressed_streamer.cpp.o[0m
+[23.602s] [ 81%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/jpeg_streamers.cpp.o[0m
+[28.175s] [ 90%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/png_streamers.cpp.o[0m
+[35.669s] [100%] [32m[1mLinking CXX executable web_video_server[0m
+[36.899s] [100%] Built target web_video_server
+[36.923s] Invoked command in '/home/sreeja/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/web_video_server -- -j4 -l4
+[37.261s] Invoking command in '/home/sreeja/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/web_video_server
+[37.269s] -- Install configuration: ""
+[37.270s] -- Execute custom install script
+[37.270s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/lib/web_video_server/web_video_server
+[37.278s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[37.286s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[37.294s] -- Up-to-date symlink: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[37.294s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[37.302s] -- Up-to-date symlink: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/path.sh
+[37.302s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/environment/path.dsv
+[37.311s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.bash
+[37.319s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.sh
+[37.327s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.zsh
+[37.337s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/local_setup.dsv
+[37.345s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.dsv
+[37.353s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[37.364s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[37.377s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[37.390s] -- Symlinking: /home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.xml
+[37.398s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server
+[37.398s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/libav_streamer.h
+[37.398s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/vp9_streamer.h
+[37.398s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/vp8_streamer.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/web_video_server.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/image_streamer.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/png_streamers.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/h264_streamer.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[37.399s] -- Up-to-date: /home/sreeja/dev_ws/install/web_video_server/include/web_video_server/multipart_stream.h
+[37.401s] Invoked command in '/home/sreeja/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/web_video_server

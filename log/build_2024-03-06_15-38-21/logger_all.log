@@ -1,0 +1,528 @@
+[3.975s] DEBUG:colcon:Command line arguments: ['/home/sreeja/.local/bin/colcon', 'build', '--symlink-install']
+[3.975s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f14953c0d60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f14953c0d60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f14953c0b80>)
+[4.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.146s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sreeja/dev_ws'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['cmake', 'python']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'cmake'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['python_setup_py']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'python_setup_py'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ignore', 'ignore_ament_install']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ignore_ament_install'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_pkg']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_pkg'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['colcon_meta']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'colcon_meta'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['ros']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'ros'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['cmake', 'python']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'cmake'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extensions ['python_setup_py']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/Docker) by extension 'python_setup_py'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ignore_ament_install'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_pkg']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_pkg'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['colcon_meta']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'colcon_meta'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extensions ['ros']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control) by extension 'ros'
+[4.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extensions ['ros']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/gazebo_ros2_control_demos) by extension 'ros'
+[4.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['ignore', 'ignore_ament_install']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'ignore'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'ignore_ament_install'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['colcon_pkg']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'colcon_pkg'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['colcon_meta']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'colcon_meta'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['ros']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'ros'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['cmake', 'python']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'cmake'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'python'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extensions ['python_setup_py']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control/img) by extension 'python_setup_py'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ignore', 'ignore_ament_install']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ignore_ament_install'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_pkg']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_pkg'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['colcon_meta']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'colcon_meta'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extensions ['ros']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_bot) by extension 'ros'
+[4.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_bot' with type 'ros.ament_cmake' and name 'my_bot'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[4.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[4.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ignore'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ignore_ament_install'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['colcon_pkg']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'colcon_pkg'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['colcon_meta']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'colcon_meta'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['ros']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ros'
+[4.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[4.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[4.473s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.473s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeja/dev_ws/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeja/dev_ws/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control', 'symlink_install': True, 'test_result_base': None}
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[4.546s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[4.547s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.547s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeja/dev_ws/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeja/dev_ws/install/my_bot', 'merge_install': False, 'path': '/home/sreeja/dev_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.623s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.624s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.624s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.624s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.624s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeja/dev_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeja/dev_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': True, 'test_result_base': None}
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_args' from command line to 'None'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target' from command line to 'None'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_cache' from command line to 'False'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_first' from command line to 'False'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_force_configure' from command line to 'False'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'ament_cmake_args' from command line to 'None'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_cmake_args' from command line to 'None'
+[4.696s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.696s] DEBUG:colcon.colcon_core.verb:Building package 'web_video_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeja/dev_ws/build/web_video_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeja/dev_ws/install/web_video_server', 'merge_install': False, 'path': '/home/sreeja/dev_ws/src/web_video_server', 'symlink_install': True, 'test_result_base': None}
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[4.770s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.770s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[4.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[4.844s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[4.844s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.844s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sreeja/dev_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sreeja/dev_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': True, 'test_result_base': None}
+[4.917s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.997s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control' with build type 'ament_cmake'
+[4.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control'
+[5.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[5.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[5.328s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sreeja/dev_ws/src/my_bot' with build type 'ament_cmake'
+[5.487s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sreeja/dev_ws/src/my_bot'
+[5.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.722s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sreeja/dev_ws/src/web_video_server' with build type 'ament_cmake'
+[5.722s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sreeja/dev_ws/src/web_video_server'
+[5.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/gazebo_ros2_control -- -j4 -l4
+[5.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sreeja/dev_ws/install/serial_motor_demo_msgs
+[5.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/my_bot -- -j4 -l4
+[5.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/web_video_server -- -j4 -l4
+[6.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/my_bot -- -j4 -l4
+[6.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/my_bot
+[6.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[6.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/my_bot
+[7.084s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot' for CMake module files
+[7.085s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot' for CMake config files
+[7.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[7.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[7.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[7.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/lib'
+[7.175s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/bin'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/lib/python3.8/site-packages'
+[7.177s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/bin'
+[7.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.ps1'
+[7.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.dsv'
+[7.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.sh'
+[7.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.bash'
+[7.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.zsh'
+[7.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[7.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[7.541s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot' for CMake module files
+[7.542s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot' for CMake config files
+[7.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[7.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[7.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[7.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/lib'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/bin'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/lib/pkgconfig/my_bot.pc'
+[7.631s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/lib/python3.8/site-packages'
+[7.631s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/my_bot/bin'
+[7.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.ps1'
+[7.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.dsv'
+[7.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.sh'
+[7.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.bash'
+[7.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/my_bot/share/my_bot/package.zsh'
+[7.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/my_bot/share/colcon-core/packages/my_bot)
+[8.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sreeja/dev_ws/install/serial_motor_demo_msgs
+[8.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[19.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[20.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/serial_motor_demo_msgs
+[22.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[22.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/serial_motor_demo_msgs
+[23.119s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[23.132s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[23.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[23.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[23.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[23.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[23.333s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib'
+[23.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[23.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[23.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[23.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[23.531s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/bin'
+[23.531s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[23.531s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[23.531s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[23.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[23.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[23.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[23.757s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/bin'
+[23.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[23.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[23.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[23.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[23.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[23.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[25.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[25.895s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs' for CMake module files
+[25.895s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs' for CMake config files
+[25.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[26.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[26.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[26.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[26.148s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib'
+[26.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[26.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[26.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[26.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[26.277s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/bin'
+[26.277s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[26.277s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[26.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[26.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[26.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[26.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[26.378s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/bin'
+[26.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[26.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[26.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[26.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[26.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[26.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[26.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[26.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[26.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[26.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[26.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[27.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.985s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sreeja/dev_ws/src/serial_motor_demo/serial_motor_demo'
+[28.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sreeja/dev_ws/build/serial_motor_demo/prefix_override:/home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sreeja/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[30.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath_develop')
+[30.286s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sreeja/dev_ws/build/serial_motor_demo/prefix_override:/home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/sreeja/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sreeja/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[30.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.ps1'
+[30.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.dsv'
+[30.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/build/serial_motor_demo/share/serial_motor_demo/hook/pythonpath_develop.sh'
+[30.719s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo' for CMake module files
+[30.719s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo' for CMake config files
+[30.720s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo/lib'
+[30.720s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo/bin'
+[30.720s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[30.720s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages'
+[30.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[30.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[30.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[30.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[30.954s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/serial_motor_demo/bin'
+[30.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[31.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[31.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[31.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[31.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[31.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[31.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[38.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/gazebo_ros2_control -- -j4 -l4
+[38.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/gazebo_ros2_control
+[39.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[39.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/gazebo_ros2_control
+[39.370s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control' for CMake module files
+[39.371s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control' for CMake config files
+[39.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[39.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[39.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[39.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[39.496s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib'
+[39.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[39.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[39.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[39.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[39.595s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/bin'
+[39.596s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[39.596s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib/python3.8/site-packages'
+[39.596s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/bin'
+[39.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[39.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[39.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[39.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[39.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[39.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[39.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[39.899s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control' for CMake module files
+[39.900s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control' for CMake config files
+[39.900s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[39.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[39.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[39.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[39.987s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib'
+[39.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'ld_library_path_lib')
+[40.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.ps1'
+[40.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.dsv'
+[40.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/ld_library_path_lib.sh'
+[40.075s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/bin'
+[40.075s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[40.075s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/lib/python3.8/site-packages'
+[40.075s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control/bin'
+[40.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[40.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[40.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[40.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[40.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[40.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[40.160s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[40.160s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sreeja/dev_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos'
+[40.245s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[40.245s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[40.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sreeja/dev_ws/build/gazebo_ros2_control_demos -- -j4 -l4
+[42.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sreeja/dev_ws/build/gazebo_ros2_control_demos -- -j4 -l4
+[42.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sreeja/dev_ws/build/gazebo_ros2_control_demos
+[42.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[42.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/sreeja/dev_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sreeja/dev_ws/build/gazebo_ros2_control_demos
+[42.459s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos' for CMake module files
+[42.459s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos' for CMake config files
+[42.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[42.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[42.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[42.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[42.548s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib'
+[42.548s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/bin'
+[42.548s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[42.548s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/python3.8/site-packages'
+[42.548s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/bin'
+[42.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[42.638s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[42.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[42.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[42.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[42.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[42.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/sreeja/dev_ws/build/web_video_server -- -j4 -l4
+[42.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[42.819s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos' for CMake module files
+[42.820s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos' for CMake config files
+[42.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[42.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[42.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[42.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[42.896s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib'
+[42.896s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/bin'
+[42.896s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[42.896s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/lib/python3.8/site-packages'
+[42.897s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/bin'
+[42.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[42.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[42.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[42.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[42.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[42.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[42.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sreeja/dev_ws/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/web_video_server
+[43.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[43.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sreeja/dev_ws/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/sreeja/dev_ws/build/web_video_server
+[43.199s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server' for CMake module files
+[43.200s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server' for CMake config files
+[43.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[43.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[43.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[43.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[43.278s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/lib'
+[43.278s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/bin'
+[43.278s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[43.278s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/lib/python3.8/site-packages'
+[43.279s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/bin'
+[43.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.ps1'
+[43.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.dsv'
+[43.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.sh'
+[43.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.bash'
+[43.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.zsh'
+[43.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/web_video_server/share/colcon-core/packages/web_video_server)
+[43.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[43.546s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server' for CMake module files
+[43.547s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server' for CMake config files
+[43.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[43.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[43.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[43.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[43.625s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/lib'
+[43.625s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/bin'
+[43.625s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[43.625s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/lib/python3.8/site-packages'
+[43.625s] Level 1:colcon.colcon_core.environment:checking '/home/sreeja/dev_ws/install/web_video_server/bin'
+[43.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.ps1'
+[43.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.dsv'
+[43.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.sh'
+[43.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.bash'
+[43.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/sreeja/dev_ws/install/web_video_server/share/web_video_server/package.zsh'
+[43.706s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sreeja/dev_ws/install/web_video_server/share/colcon-core/packages/web_video_server)
+[43.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[43.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[43.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[43.707s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[43.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[43.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[43.796s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[43.811s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[43.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeja/dev_ws/install/local_setup.ps1'
+[43.895s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sreeja/dev_ws/install/_local_setup_util_ps1.py'
+[43.896s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeja/dev_ws/install/setup.ps1'
+[43.976s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeja/dev_ws/install/local_setup.sh'
+[43.977s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sreeja/dev_ws/install/_local_setup_util_sh.py'
+[43.977s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeja/dev_ws/install/setup.sh'
+[44.062s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeja/dev_ws/install/local_setup.bash'
+[44.062s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeja/dev_ws/install/setup.bash'
+[44.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sreeja/dev_ws/install/local_setup.zsh'
+[44.137s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sreeja/dev_ws/install/setup.zsh'
